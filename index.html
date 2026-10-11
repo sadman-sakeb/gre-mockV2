@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GRE Mock Test Lab | 60 Practice Sets</title>
+<style>
+:root{--navy:#14213d;--blue:#2457d6;--pale:#eef3ff;--ink:#182230;--muted:#667085;--line:#dce2ea;--green:#16794b;--red:#b42318}
+*{box-sizing:border-box}body{margin:0;background:#f4f6fa;color:var(--ink);font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+header{background:var(--navy);color:white;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{font-weight:800;font-size:19px}.tag{font-size:12px;opacity:.8}.wrap{max-width:1200px;margin:22px auto;padding:0 15px}
+.card{background:#fff;border-radius:13px;padding:22px;box-shadow:0 3px 14px #1720330c;border:1px solid #edf0f5}
+h1,h2,h3{line-height:1.25}h2{margin-top:0}.muted{color:var(--muted);font-size:13px}.btn{border:0;border-radius:8px;padding:11px 16px;font-weight:750;cursor:pointer}.primary{background:var(--blue);color:white}.secondary{background:#e8ecf3;color:#1f2937}.danger{background:#b42318;color:white}.ghost{background:white;border:1px solid var(--line);color:var(--ink)}.btn:disabled{opacity:.45;cursor:not-allowed}
+.hero{background:linear-gradient(135deg,#14213d,#244fae);color:#fff;padding:28px;border-radius:16px;margin-bottom:18px}.hero h1{margin:0 0 8px;font-size:28px}.hero p{max-width:850px;margin:8px 0;color:#e3eaff}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0}.stat{padding:15px;background:#f7f9fc;border:1px solid var(--line);border-radius:10px}.stat b{display:block;font-size:22px}
+.testgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.testtile{border:1px solid var(--line);border-radius:10px;padding:14px;background:#fff}.testtile h3{margin:0 0 6px}.testtile p{margin:4px 0 12px}.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.pill{display:inline-block;background:#eef2ff;color:#3730a3;border-radius:20px;padding:4px 9px;font-size:12px;font-weight:700}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 245px;gap:16px}.examtop{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.timer{font-size:21px;font-weight:800;background:#f0f3f8;padding:7px 13px;border-radius:8px;min-width:100px;text-align:center}.timer.warn{background:#fee2e2;color:#991b1b}.progress{height:7px;background:#e5e7eb;border-radius:9px;overflow:hidden;margin:15px 0}.progress div{height:100%;background:var(--blue);width:0}.question{font-size:19px;line-height:1.65;margin:22px 0}.choice{display:flex;gap:11px;padding:13px;border:1px solid var(--line);border-radius:9px;margin:9px 0;cursor:pointer}.choice:hover,.choice.sel{background:#eff6ff;border-color:#7395f0}.choice input{margin-top:5px}.nav{display:flex;justify-content:space-between;gap:8px;margin-top:24px;flex-wrap:wrap}.qgrid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}.qbtn{padding:8px 0;border:1px solid var(--line);border-radius:6px;background:white;cursor:pointer}.qbtn.answered{background:#dcfce7;border-color:#86efac}.qbtn.marked{box-shadow:inset 0 0 0 2px #eab308}.qbtn.current{background:var(--blue);color:white;border-color:var(--blue)}.qbtn.current.answered{background:var(--blue);color:white}.panel h3{margin-top:0}.toolrow{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.calc{border:1px solid var(--line);padding:12px;border-radius:10px;background:#f8fafc;margin-top:12px}.calc input{width:100%;font-size:20px;padding:9px;margin-bottom:8px;border:1px solid #cbd5e1;border-radius:7px}.calcgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:5px}.calcgrid button{padding:9px 3px}.hidden{display:none!important}.reportgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.bar{height:10px;background:#e5e7eb;border-radius:10px;overflow:hidden}.bar span{height:100%;display:block;background:var(--blue)}.topicrow{display:grid;grid-template-columns:130px 1fr 45px;gap:10px;align-items:center;margin:10px 0}.review{border-top:1px solid var(--line);padding:15px 0}.explain{padding:12px 14px;background:#f8fafc;border-left:4px solid var(--blue);margin-top:9px;border-radius:5px}.good{color:var(--green);font-weight:800}.bad{color:var(--red);font-weight:800}.notice{padding:12px 14px;border-radius:9px;background:#fff7e6;border:1px solid #f5d89a;margin:12px 0}.table{border-collapse:collapse;width:100%;margin:12px 0}.table th,.table td{border:1px solid #cbd5e1;padding:8px;text-align:left}.small{font-size:12px}
+@media(max-width:850px){.testgrid{grid-template-columns:repeat(2,1fr)}.stats{grid-template-columns:repeat(2,1fr)}.layout{grid-template-columns:1fr}.sidebar{order:-1}.qgrid{grid-template-columns:repeat(10,1fr)}}
+@media(max-width:500px){.testgrid{grid-template-columns:1fr 1fr}.hero h1{font-size:23px}.card{padding:16px}.question{font-size:17px}.topicrow{grid-template-columns:95px 1fr 35px}}
+</style>
+</head>
+<body>
+<header><div><div class="brand">GRE Mock Test Lab</div><div class="tag">Independent practice platform · not affiliated with ETS</div></div><div id="headerState" class="tag">60 practice sets</div></header>
+<div class="wrap" id="home">
+  <section class="hero">
+    <h1>Train smarter for the GRE General Test</h1>
+    <p>60 generated mock sets, Verbal Reasoning and Quantitative Reasoning, timed modules, pause/resume for practice, an on-screen Quant calculator, answer explanations, topic diagnostics and cumulative progress.</p>
+    <div class="row"><button class="btn primary" onclick="startTest(1)">Start Mock Test 01</button><button class="btn ghost" onclick="showHistory()">View cumulative report</button></div>
+  </section>
+  <div class="notice"><b>Format note:</b> This practice app follows the shorter GRE section counts and timing: Verbal 12 questions/18 min then 15/23 min; Quant 12/21 min then 15/26 min. The official test also includes a 30-minute Analyze an Issue writing task, which is not included in this Verbal+Quant practice build. Pause is provided as a practice convenience and is not an official test condition. Practice scores are raw/diagnostic estimates, not official ETS scaled scores.</div>
+  <div class="stats">
+    <div class="stat"><b>60</b><span class="muted">Mock sets available</span></div><div class="stat"><b>3,240</b><span class="muted">Generated question instances</span></div><div class="stat"><b>54</b><span class="muted">Questions per full mock</span></div><div class="stat"><b>88 min</b><span class="muted">Timed Verbal + Quant</span></div>
+  </div>
+  <div class="card" style="margin-bottom:18px"><h2>Choose a mock test</h2><p class="muted">Each test has 2 Verbal and 2 Quant modules. Question wording and numeric parameters vary across test sets. Difficulty labels are approximate practice labels, not ETS classifications.</p><div id="testgrid" class="testgrid"></div></div>
+  <div class="card"><h2>How this platform works</h2><div class="reportgrid"><div><h3>During a module</h3><ul><li>Timed module with question navigator</li><li>Move backward/forward and mark for review</li><li>Pause/resume practice timer</li><li>On-screen calculator in Quant only</li></ul></div><div><h3>After a module/test</h3><ul><li>Correct answer and explanation for every item</li><li>Topic-level accuracy and suggested practice</li><li>Module reports and cumulative history</li><li>Adaptive-style second module based on first-module accuracy</li></ul></div></div><p class="muted">Data is stored in this browser's local storage. It does not sync between devices unless you deploy a backend/database.</p></div>
+</div>
+
+<div class="wrap hidden" id="examView">
+ <div class="layout">
+  <main class="card">
+   <div class="examtop"><div><div class="muted" id="testLabel">Mock Test 01</div><h2 id="moduleTitle" style="margin:2px 0">Verbal Reasoning — Section 1</h2><div class="muted" id="moduleMeta"></div></div><div><div class="timer" id="timer">18:00</div><div class="muted" id="pausedText" style="text-align:center"></div></div></div>
+   <div class="progress"><div id="progress"></div></div>
+   <div id="qcontent"></div>
+   <div class="toolrow"><button class="btn secondary" id="markBtn" onclick="toggleMark()">☆ Mark for review</button><button class="btn secondary" onclick="togglePause()" id="pauseBtn">Ⅱ Pause</button><button class="btn secondary" id="calcToggle" onclick="toggleCalc()">Calculator</button></div>
+   <div id="calcBox" class="calc hidden"><b>GRE-style basic calculator</b><input id="calcDisplay" aria-label="Calculator display" value="0" readonly><div class="calcgrid" id="calcKeys"></div><div class="muted">Basic arithmetic calculator for practice. Use your own judgment to estimate results before calculating.</div></div>
+   <div class="nav"><button class="btn secondary" id="prevBtn" onclick="moveQ(-1)">← Previous</button><div class="row"><button class="btn secondary" id="nextBtn" onclick="moveQ(1)">Next →</button><button class="btn primary" id="finishModuleBtn" onclick="finishModule()">Submit module</button></div></div>
+  </main>
+  <aside class="card sidebar panel"><h3>Question navigator</h3><div id="navCount" class="muted"></div><div id="qgrid" class="qgrid" style="margin:12px 0"></div><hr style="border:0;border-top:1px solid var(--line);margin:15px 0"><div class="muted">Green = answered<br>Blue = current<br>Yellow outline = marked</div><button class="btn danger" style="width:100%;margin-top:18px" onclick="finishModule()">End module</button><button class="btn ghost" style="width:100%;margin-top:8px" onclick="goHome()">Exit to dashboard</button></aside>
+ </div>
+</div>
+
+<div class="wrap hidden" id="moduleReport"><div class="card"><div class="muted" id="moduleReportKicker">Module report</div><h2 id="moduleReportTitle">Module complete</h2><div id="moduleReportBody"></div><div class="row" style="margin-top:20px"><button class="btn primary" onclick="continueAfterReport()">Continue</button><button class="btn secondary" onclick="goHome()">Dashboard</button></div></div></div>
+<div class="wrap hidden" id="finalReport"><div class="card"><h1>Mock test report</h1><div id="finalReportBody"></div><div class="row" style="margin-top:20px"><button class="btn primary" onclick="goHome()">Return to dashboard</button><button class="btn secondary" onclick="showHistory()">Cumulative report</button></div></div></div>
+<div class="wrap hidden" id="historyView"><div class="card"><h1>Cumulative performance report</h1><div id="historyBody"></div><button class="btn primary" onclick="goHome()">Back to mock tests</button></div></div>
+
+<script>
+const VERBAL_TIME=[18*60,23*60], QUANT_TIME=[21*60,26*60];
+const Vocab=[
+ {word:"equivocal",syn:["ambiguous","uncertain"],anti:"unequivocal",meaning:"open to more than one interpretation"},
+ {word:"pragmatic",syn:["practical","realistic"],anti:"idealistic",meaning:"concerned with practical consequences"},
+ {word:"ephemeral",syn:["transitory","fleeting"],anti:"permanent",meaning:"lasting for a very short time"},
+ {word:"obdurate",syn:["stubborn","inflexible"],anti:"pliant",meaning:"unyielding in one's opinions"},
+ {word:"lucid",syn:["clear","intelligible"],anti:"obscure",meaning:"expressed clearly and easy to understand"},
+ {word:"prolific",syn:["productive","fertile"],anti:"unproductive",meaning:"producing many works or results"},
+ {word:"fastidious",syn:["meticulous","demanding"],anti:"careless",meaning:"very attentive to detail"},
+ {word:"mitigate",syn:["alleviate","lessen"],anti:"exacerbate",meaning:"make less severe"},
+ {word:"cogent",syn:["convincing","persuasive"],anti:"unconvincing",meaning:"clear, logical, and convincing"},
+ {word:"capricious",syn:["erratic","unpredictable"],anti:"consistent",meaning:"given to sudden changes of mood or behavior"},
+ {word:"reticent",syn:["reserved","uncommunicative"],anti:"forthcoming",meaning:"not revealing thoughts readily"},
+ {word:"ostensible",syn:["apparent","supposed"],anti:"actual",meaning:"stated or appearing to be true, but not necessarily so"},
+ {word:"ameliorate",syn:["improve","enhance"],anti:"worsen",meaning:"make something better"},
+ {word:"esoteric",syn:["arcane","specialized"],anti:"commonplace",meaning:"understood by only a small group"},
+ {word:"fastidious",syn:["scrupulous","exact"],anti:"sloppy",meaning:"careful about accuracy and detail"},
+ {word:"intransigent",syn:["unyielding","inflexible"],anti:"accommodating",meaning:"unwilling to compromise"},
+ {word:"sanguine",syn:["optimistic","hopeful"],anti:"pessimistic",meaning:"confident or cheerful about the future"},
+ {word:"perfunctory",syn:["cursory","superficial"],anti:"thorough",meaning:"done with minimal effort or attention"},
+ {word:"vindicate",syn:["exonerate","justify"],anti:"incriminate",meaning:"clear from blame or suspicion"},
+ {word:"anomalous",syn:["abnormal","atypical"],anti:"ordinary",meaning:"deviating from what is standard"}
+];
+const topicsQ=["Arithmetic","Algebra","Geometry","Data Analysis","Number Properties","Ratios & Rates","Probability","Exponents","Quantitative Comparison"];
+const topicsV=["Text Completion","Sentence Equivalence","Reading Comprehension","Vocabulary in Context","Inference","Argument Analysis"];
+const passageTopics=[
+ ["Urban planning","Several cities have replaced portions of downtown streets with pedestrian zones. Initial reports often emphasize increased foot traffic, but long-term effects depend on transit access, delivery arrangements, and whether nearby businesses adapt. A rise in visitors alone does not establish that the policy has improved local commerce."],
+ ["Ecology","In a coastal marsh, researchers found that a plant species survived both unusually wet and unusually dry seasons. They cautioned that this resilience did not mean the plant was unaffected by climate: its growth rate fell in both extremes, even though most individuals survived."],
+ ["History of science","Early accounts credit a single inventor with a major instrument, yet surviving workshop records suggest that several craftspeople contributed incremental improvements. The familiar story may be memorable, but the documentary record supports a more collaborative account of innovation."],
+ ["Education","A study found that students who took handwritten notes recalled more conceptual relationships than students who typed verbatim notes. The researchers did not conclude that handwriting is always superior; they noted that task, prior knowledge, and how notes are reviewed may change the outcome."],
+ ["Economics","A fall in the price of a product can increase demand, but the size of the response varies. When buyers regard alternatives as close substitutes, they may react strongly to a price change; when the product is essential and alternatives are scarce, the response may be modest."],
+ ["Archaeology","A settlement's lack of imported pottery was once taken as evidence of isolation. Later analysis showed that local artisans copied foreign styles using local clay. The new evidence does not prove extensive trade, but it undermines the claim that the settlement had no contact with outside communities."]
+];
+function rng(seed){let x=seed>>>0;return ()=>{x=(x*1664525+1013904223)>>>0;return x/4294967296}}
+function pick(arr,r){return arr[Math.floor(r()*arr.length)]}
+function shuffle(arr,r){let a=arr.slice();for(let i=a.length-1;i>0;i--){let j=Math.floor(r()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function fmt(n){return Number.isInteger(n)?String(n):String(Math.round(n*100)/100)}
+function makeQ(prompt,options,correct,explanation,topic,difficulty,type="mcq"){
+ let opts=options.map((v,i)=>({v,correct:i===correct})); // caller supplies correct index
+ return {prompt,options:options.map(String),answer:correct,explanation,topic,difficulty,type,id:""};
+}
+function makeQuant(test,idx,r){
+ let type=idx%9, d=["Easy","Normal","Hard","Very Hard"][(idx+test)%4], a,b,c,ans,opts,prompt,exp,topic;
+ const n=(lo,hi)=>Math.floor(r()*(hi-lo+1))+lo;
+ if(type===0){a=n(3,18)+test%7;b=n(2,12);let x=a+b;prompt=`Solve for x: ${a}x − ${b} = ${a-1}x + ${n(2,18)}.`;let rhs=Number(prompt.match(/\\+ (\\d+)/)?.[1]||8); // calculate using generated constant below is safer; replace
+ let k=n(2,18);prompt=`Solve for x: ${a}x − ${b} = ${a-1}x + ${k}.`;ans=b+k;opts=shuffle([ans,ans+2,ans-2,ans+5,Math.abs(ans-4)],r);topic="Algebra";exp=`Subtract ${(a-1)}x from both sides to get x − ${b} = ${k}; add ${b}. Thus x = ${ans}.`;}
+ else if(type===1){a=n(2,12);b=n(2,10);let g=(x,y)=>y?g(y,x%y):x;let num=a,den=b,gg=g(num,den);num/=gg;den/=gg;let y=n(4,18)*den;ans=y*num/den;prompt=`The ratio x:y is ${num}:${den}. If y = ${y}, what is x?`;opts=shuffle([ans,ans+num,Math.max(1,ans-num),ans*2,ans+den],r);topic="Ratios & Rates";exp=`Since x/y = ${num}/${den}, x = ${y} × ${num}/${den} = ${ans}.`;}
+ else if(type===2){a=n(4,18);b=n(4,18);prompt=`A triangle has base ${a*2} and height ${b}. What is its area?`;ans=a*b;opts=shuffle([ans,ans*2,ans+a,ans+b,Math.abs(ans-a*b/2)],r);topic="Geometry";exp=`Triangle area = ½ × base × height = ½ × ${a*2} × ${b} = ${ans}.`;}
+ else if(type===3){a=n(3,15);b=n(3,15);c=n(3,15);prompt=`The mean of ${a} numbers is ${b}. If a number equal to ${c} is added, what is the new mean?`;ans=(a*b+c)/(a+1);opts=shuffle([ans,ans+1,ans-1,b+c,b],r).map(v=>fmt(v));ans=fmt(ans);topic="Data Analysis";exp=`Original sum = ${a} × ${b} = ${a*b}. New mean = (${a*b} + ${c}) / ${a+1} = ${ans}.`;}
+ else if(type===4){a=n(2,9);b=n(2,9);let val=a*b;prompt=`What is the least positive integer divisible by both ${a*2} and ${b*3}?`;let lcm=(x,y)=>x*y/(function g(x,y){return y?g(y,x%y):x})(x,y);ans=lcm(a*2,b*3);opts=shuffle([ans,ans+6,ans*2,Math.max(1,ans-3),ans+12],r);topic="Number Properties";exp=`The least common multiple of ${a*2} and ${b*3} is ${ans}.`;}
+ else if(type===5){a=n(25,80);b=n(2,8);let hours=n(3,9);ans=a/b*hours;prompt=`A printer produces ${a} pages in ${b} minutes. At the same rate, how many pages does it produce in ${b*hours} minutes?`;opts=shuffle([ans,ans+b,ans-b,ans*2,ans/2],r).map(v=>fmt(v));ans=fmt(ans);topic="Ratios & Rates";exp=`Rate = ${a}/${b} = ${fmt(a/b)} pages per minute. In ${b*hours} minutes it produces ${ans} pages.`;}
+ else if(type===6){a=n(2,7);b=n(2,6);c=n(1,5);let total=a+b+c;ans=(a+c)/total;prompt=`A box contains ${a} red, ${b} blue, and ${c} green counters. If one counter is chosen at random, what is the probability it is not blue?`;opts=shuffle([fmt(ans),fmt(b/total),fmt(a/total),fmt(c/total),fmt(1/total)],r);ans=fmt(ans);topic="Probability";exp=`There are ${total} counters, and ${a+c} are not blue. Probability = ${a+c}/${total} = ${ans}.`;}
+ else if(type===7){a=n(2,5);b=n(3,7);ans=a+b;prompt=`If 2^x = ${2**a} and 2^y = ${2**b}, what is x + y?`;opts=shuffle([ans,ans+1,ans-1,a*b,Math.abs(b-a)],r);topic="Exponents";exp=`Because ${2**a}=2^${a}, x=${a}; because ${2**b}=2^${b}, y=${b}. Thus x+y=${ans}.`;}
+ else {a=n(2,12);b=n(2,12);let sign=r()<.5?1:-1;let x=sign*a;let y=sign*b;prompt=`Compare Quantity A = ${x}² and Quantity B = ${y}². (Assume ${Math.abs(x)} ${x===y?"=":"and"} ${Math.abs(y)} are positive.)`;ans=x*x>y*y?0:x*x<y*y?1:2;opts=["Quantity A is greater.","Quantity B is greater.","The two quantities are equal.","The relationship cannot be determined."];if(x*x===y*y)ans=2;topic="Quantitative Comparison";exp=`Squaring gives Quantity A = ${x*x} and Quantity B = ${y*y}; therefore ${ans===0?"Quantity A is greater":ans===1?"Quantity B is greater":"the quantities are equal"}.`;return makeQ(prompt,opts,ans,exp,topic,d,"qc");}
+ // de-duplicate numerical options and ensure correct answer included
+ let correctVal=String(ans), vals=[...new Set(opts.map(String))];if(!vals.includes(correctVal))vals[0]=correctVal;
+ while(vals.length<5){vals.push(String(Number(vals[vals.length-1])+n(2,9)))}
+ vals=vals.slice(0,5);let correct=vals.indexOf(correctVal);if(correct<0){vals[0]=correctVal;correct=0}
+ let paired=vals.map((v,i)=>({v,ok:i===correct}));paired=shuffle(paired,r);
+ return makeQ(prompt,paired.map(x=>x.v),paired.findIndex(x=>x.ok),exp,topic,d);
+}
+function makeVerbal(test,idx,r){
+ let d=["Easy","Normal","Hard","Very Hard"][(idx+test+1)%4], kind=idx%3, vocab=Vocab[(idx*3+test*2)%Vocab.length], vocab2=Vocab[(idx*3+test*2+5)%Vocab.length];
+ if(kind===0){
+  const scenes=[
+   [`Although the committee initially viewed the proposal as ${vocab.anti}, later evidence made its advantages increasingly _____.`,vocab.word],
+   [`The critic's review was not ${vocab.anti}; instead, it offered a careful and ____ assessment of the novel.`,vocab.word],
+   [`Because the instructions were unusually _____, even first-time participants understood each step without assistance.`,vocab.word],
+   [`The scientist avoided a _____ conclusion, emphasizing instead that the preliminary data admitted several interpretations.`,vocab.word],
+   [`Rather than _____ the dispute, the mediator proposed a compromise that reduced the tension between the groups.`,vocab.word]
+  ];
+  let scene=pick(scenes,r);let correctWord=scene[1];let choices=shuffle([correctWord,vocab.anti,vocab2.word,pick(Vocab,r).word,pick(Vocab,r).word],r);
+  // Ensure unique answer options and correct is first intended semantic key
+  choices=[...new Set(choices)];while(choices.length<5)choices.push(pick(Vocab,r).word);choices=choices.slice(0,5);
+  let right=choices.indexOf(correctWord);let prompt=`Practice set ${test}, item ${idx+1}: ${scene[0]}`;
+  return makeQ(prompt,choices,right,`The best choice is “${correctWord},” meaning ${vocab.meaning}. It fits the sentence's contrast/context.`, "Text Completion",d);
+ }
+ if(kind===1){
+  let v=Vocab[(idx+test*3)%Vocab.length], syn=v.syn.slice();let wrong1=Vocab[(idx+test+7)%Vocab.length].word,wrong2=Vocab[(idx+test+11)%Vocab.length].word,wrong3=Vocab[(idx+test+13)%Vocab.length].word,wrong4=Vocab[(idx+test+16)%Vocab.length].word;
+  let all=shuffle([syn[0],syn[1],wrong1,wrong2,wrong3,wrong4],r);
+  // paired synonym questions: two correct selections; engine supports multi
+  return {prompt:`Practice set ${test}, item ${idx+1}. Select the TWO answer choices that best complete the sentence with similar meanings: The report was ${v.word}, presenting its conclusions in a way that readers could readily understand.`,options:all,answer:[all.indexOf(syn[0]),all.indexOf(syn[1])],explanation:`“${syn[0]}” and “${syn[1]}” are the two intended synonyms. ${v.word} means ${v.meaning}.`,topic:"Sentence Equivalence",difficulty:d,type:"multi"};
+ }
+ let passage=passageTopics[(test+idx)%passageTopics.length], ask=idx%2===0?"Which statement is best supported by the passage?":"What is the primary purpose of the passage?";
+ let correctText,wrongA,wrongB,wrongC,wrongD;
+ if(passage[0]==="Urban planning"){correctText=idx%2===0?"Visitor numbers alone do not establish whether the policy improved commerce.":"To caution against judging a policy from a single outcome measure.";wrongA="Pedestrian zones invariably increase every nearby business's profits.";wrongB="Cities should prohibit all delivery vehicles downtown.";wrongC="The policy's success can be measured only by foot traffic.";wrongD="All cities have already replaced downtown streets."}
+ else if(passage[0]==="Ecology"){correctText=idx%2===0?"Survival through extreme conditions did not prevent reduced growth.":"To distinguish survival from thriving under climate extremes.";wrongA="The plant grew fastest in both extreme conditions.";wrongB="The researchers proved climate has no effect on plants.";wrongC="All marsh plants are equally resilient.";wrongD="The plant died during the dry season."}
+ else if(passage[0]==="History of science"){correctText=idx%2===0?"Records suggest several craftspeople contributed to the instrument's development.":"To qualify a familiar single-inventor account using documentary evidence.";wrongA="The instrument was invented entirely by one person.";wrongB="Workshop records are never reliable.";wrongC="No improvements were made after the instrument's invention.";wrongD="The craftspeople all worked in different centuries."}
+ else if(passage[0]==="Education"){correctText=idx%2===0?"Note-taking effectiveness may depend on context and review habits.":"To present a study result while limiting how broadly it should be generalized.";wrongA="Typing notes is always worse than handwriting.";wrongB="Students should never review their notes.";wrongC="The study proved prior knowledge is irrelevant.";wrongD="The researchers studied only mathematics exams."}
+ else if(passage[0]==="Economics"){correctText=idx%2===0?"Demand response depends partly on substitutes and how essential a product is.":"To explain why consumers respond differently to price changes.";wrongA="All price decreases cause identical demand increases.";wrongB="Essential products always have many substitutes.";wrongC="Demand is unaffected by prices.";wrongD="Substitutes make products more expensive."}
+ else {correctText=idx%2===0?"Local imitation weakens the claim that the settlement had no outside contact.":"To show how new evidence complicates an earlier interpretation.";wrongA="Local pottery proves there was extensive international trade.";wrongB="Imported pottery was found in every building.";wrongC="The settlement had no skilled artisans.";wrongD="Foreign styles cannot be copied locally."}
+ let choices=shuffle([correctText,wrongA,wrongB,wrongC,wrongD],r);
+ return makeQ(`<b>Practice set ${test}, item ${idx+1} · Passage — ${passage[0]}</b><br>${passage[1]}<br><br>${ask}`,choices,choices.indexOf(correctText),`The passage says: ${correctText} The other choices overstate, contradict, or introduce claims not supported by the passage.`,idx%2===0?"Inference":"Reading Comprehension",d);
+}
+function buildModule(test,measure,section,count){
+ let seed=test*92821+(measure==="Quant"?771:333)+(section*139),r=rng(seed),arr=[];
+ for(let i=0;i<count;i++)arr.push(measure==="Quant"?makeQuant(test,section*20+i,r):makeVerbal(test,section*20+i,r));
+ // unique within this set/module ID; prompts are parameterized by test and module seed
+ arr.forEach((q,i)=>q.id=`T${test}-${measure}-S${section+1}-Q${i+1}`);
+ return arr;
+}
+function moduleSpec(test,idx){
+ let isV=idx<2,sec=isV?idx:idx-2,measure=isV?"Verbal":"Quant",count=sec===0?12:15;
+ return {test,idx,measure,section:sec+1,count,seconds:(isV?VERBAL_TIME:QUANT_TIME)[sec],questions:buildModule(test,measure,sec,count),title:`${measure} Reasoning — Section ${sec+1}`};
+}
+let state=null,clock=null,remaining=0,paused=false,qi=0,answers=[],marked=[],calcExpr="",lastModuleReport=null;
+const $=id=>document.getElementById(id);
+function show(id){["home","examView","moduleReport","finalReport","historyView"].forEach(x=>$(x).classList.toggle("hidden",x!==id))}
+function renderTiles(){let h="";for(let i=1;i<=60;i++)h+=`<div class="testtile"><h3>Mock Test ${String(i).padStart(2,"0")}</h3><p class="muted">Verbal + Quant · 54 questions</p><div class="row"><span class="pill">4 modules</span></div><button class="btn primary" style="width:100%;margin-top:12px" onclick="startTest(${i})">Start test</button></div>`;$("testgrid").innerHTML=h}
+function startTest(n){clearInterval(clock);state={test:n,module:0,modules:[],results:[],started:new Date().toISOString()};show("examView");beginModule()}
+function beginModule(){clearInterval(clock);let m=moduleSpec(state.test,state.module);state.current=m;qi=0;answers=Array(m.count).fill(null);marked=Array(m.count).fill(false);remaining=m.seconds;paused=false;$("testLabel").textContent=`Mock Test ${String(state.test).padStart(2,"0")} · Module ${state.module+1}/4`;$("moduleTitle").textContent=m.title;$("moduleMeta").textContent=`${m.count} questions · ${Math.floor(m.seconds/60)} minutes · ${m.measure==="Quant"?"Calculator available":"No calculator in this module"}`;$("calcToggle").classList.toggle("hidden",m.measure!=="Quant");$("calcBox").classList.add("hidden");$("pauseBtn").textContent="Ⅱ Pause";$("pausedText").textContent="";renderQ();updateTimer();clock=setInterval(()=>{if(!paused){remaining--;updateTimer();if(remaining<=0){clearInterval(clock);finishModule(true)}}},1000)}
+function updateTimer(){let m=Math.floor(remaining/60),s=remaining%60;$("timer").textContent=String(m).padStart(2,"0")+":"+String(s).padStart(2,"0");$("timer").classList.toggle("warn",remaining<=120)}
+function renderQ(){let q=state.current.questions[qi],html=`<div class="row"><span class="pill">Question ${qi+1} of ${state.current.count}</span><span class="pill">${q.difficulty}</span><span class="pill">${q.topic}</span></div><div class="question">${q.prompt}</div>`;
+ if(q.type==="multi"){html+='<div class="muted">Select TWO answer choices. No partial credit.</div>';q.options.forEach((v,k)=>{let checked=Array.isArray(answers[qi])&&answers[qi].includes(k);html+=`<label class="choice ${checked?'sel':''}"><input type="checkbox" ${checked?'checked':''} onchange="chooseMulti(${k})"><span><b>${String.fromCharCode(65+k)}.</b> ${v}</span></label>`})}
+ else if(q.type==="numeric"){html+=`<input type="number" value="${answers[qi]??''}" onchange="answers[qi]=this.value;updateNav()" style="padding:12px;border:1px solid var(--line);border-radius:8px;font-size:18px">`}
+ else{q.options.forEach((v,k)=>{html+=`<label class="choice ${answers[qi]===k?'sel':''}"><input type="radio" name="answer" ${answers[qi]===k?'checked':''} onchange="choose(${k})"><span><b>${String.fromCharCode(65+k)}.</b> ${v}</span></label>`})}
+ $("qcontent").innerHTML=html;$("prevBtn").disabled=qi===0;$("nextBtn").disabled=qi===state.current.count-1;$("markBtn").textContent=marked[qi]?"★ Marked for review":"☆ Mark for review";updateNav()}
+function choose(k){answers[qi]=k;renderQ()}function chooseMulti(k){if(!Array.isArray(answers[qi]))answers[qi]=[];let a=answers[qi];answers[qi]=a.includes(k)?a.filter(x=>x!==k):a.length<2?[...a,k]:a;renderQ()}
+function moveQ(d){qi=Math.max(0,Math.min(state.current.count-1,qi+d));renderQ()}
+function jumpQ(k){qi=k;renderQ()}
+function toggleMark(){marked[qi]=!marked[qi];renderQ()}
+function togglePause(){paused=!paused;$("pauseBtn").textContent=paused?"▶ Resume":"Ⅱ Pause";$("pausedText").textContent=paused?"PAUSED — practice timer stopped":"";$("qcontent").style.opacity=paused?".45":"1";$("pauseBtn").classList.toggle("danger",paused)}
+function updateNav(){let n=answers.filter(a=>a!==null&&a!==undefined&&(!Array.isArray(a)||a.length)).length;$("navCount").textContent=`Answered ${n}/${state.current.count}`;$("progress").style.width=(n/state.current.count*100)+"%";let h="";for(let k=0;k<state.current.count;k++)h+=`<button class="qbtn ${k===qi?'current':''} ${answers[k]!==null&&answers[k]!==undefined&&(!Array.isArray(answers[k])||answers[k].length)?'answered':''} ${marked[k]?'marked':''}" onclick="jumpQ(${k})">${k+1}</button>`;$("qgrid").innerHTML=h}
+function toggleCalc(){$("calcBox").classList.toggle("hidden")}
+function initCalc(){let keys=["7","8","9","÷","4","5","6","×","1","2","3","−","0",".","(",")","C","⌫","+","="];$("calcKeys").innerHTML=keys.map(k=>`<button class="btn secondary" onclick="calcKey('${k}')">${k}</button>`).join("")}
+function calcKey(k){let d=$("calcDisplay");if(k==="C"){calcExpr="";d.value="0";return}if(k==="⌫"){calcExpr=calcExpr.slice(0,-1);d.value=calcExpr||"0";return}if(k==="="){try{let e=calcExpr.replace(/÷/g,"/").replace(/×/g,"*").replace(/−/g,"-");if(!/^[0-9+*/().\\s-]+$/.test(e))throw 0;let v=Function('"use strict";return ('+e+')')();if(!Number.isFinite(v))throw 0;d.value=String(Math.round(v*1e10)/1e10);calcExpr=d.value}catch(e){d.value="ERROR";calcExpr=""}return}calcExpr+=k;d.value=calcExpr}
+function isCorrect(q,a){if(q.type==="multi")return Array.isArray(a)&&a.slice().sort().join(",")===q.answer.slice().sort().join(",");if(q.type==="numeric")return Number(a)===Number(q.answer);return a===q.answer}
+function finishModule(auto=false){if(!auto&&!confirm("Submit this module? You cannot return to it after submission."))return;clearInterval(clock);paused=false;let m=state.current,correct=0,items=[];m.questions.forEach((q,k)=>{let ok=isCorrect(q,answers[k]);if(ok)correct++;items.push({q,answer:answers[k],correct:ok,marked:marked[k]})});let result={test:state.test,module:state.module,title:m.title,measure:m.measure,correct,total:m.count,accuracy:Math.round(correct/m.count*100),items,secondsUsed:m.seconds-remaining,completed:new Date().toISOString()};state.results.push(result);lastModuleReport=result;showModuleReport(result,auto)}
+function showModuleReport(r,auto){show("moduleReport");$("moduleReportKicker").textContent=`Mock Test ${String(state.test).padStart(2,"0")} · Module ${state.module+1}/4`;$("moduleReportTitle").textContent=r.title+" — Report";$("moduleReportBody").innerHTML=reportHTML([r],false)+(auto?'<p class="notice">Time expired; this module was submitted automatically.</p>':'')}
+function reportHTML(results,cumulative){let correct=results.reduce((s,r)=>s+r.correct,0),total=results.reduce((s,r)=>s+r.total,0),pct=total?Math.round(correct/total*100):0;let topics={};results.forEach(r=>r.items.forEach(it=>{let t=it.q.topic;topics[t]??={right:0,total:0};topics[t].total++;if(it.correct)topics[t].right++}));let topicRows=Object.entries(topics).sort((a,b)=>a[1].right/a[1].total-b[1].right/b[1].total).map(([t,v])=>`<div class="topicrow"><span>${t}</span><div class="bar"><span style="width:${100*v.right/v.total}%"></span></div><b>${Math.round(100*v.right/v.total)}%</b></div>`).join("");let weak=Object.entries(topics).sort((a,b)=>a[1].right/a[1].total-b[1].right/b[1].total).slice(0,3);let advice=weak.length?`<p><b>Prioritize next:</b> ${weak.map(x=>x[0]).join(", ")}. Review the explanations for missed items, then practise a short untimed set on each weak topic before retrying under time limits.</p>`:"";return `<div class="stats"><div class="stat"><b>${correct}/${total}</b><span class="muted">Correct</span></div><div class="stat"><b>${pct}%</b><span class="muted">Accuracy</span></div><div class="stat"><b>${results.length}</b><span class="muted">Modules</span></div><div class="stat"><b>${total-correct}</b><span class="muted">Review items</span></div></div><h3>Topic diagnostics</h3>${topicRows||"<p>No completed questions yet.</p>"}${advice}<p class="muted">This is a practice diagnostic based on raw correct answers. It is not an official GRE scaled score or percentile.</p>${results.map(r=>`<h3 style="margin-top:22px">${r.title}: ${r.correct}/${r.total}</h3>`+r.items.map((it,k)=>`<div class="review"><b>${it.correct?'<span class="good">✓ Correct</span>':'<span class="bad">✗ Review</span>'} · ${it.q.topic} · ${it.q.difficulty}</b><div>${it.q.prompt}</div><div class="muted">Your answer: ${formatAnswer(it.q,it.answer)}</div><div><b>Correct answer:</b> ${formatAnswer(it.q,it.q.answer)}</div><div class="explain"><b>Explanation:</b> ${it.q.explanation}</div></div>`).join("")).join("")}`}
+function formatAnswer(q,a){if(a===null||a===undefined)return"Not answered";if(q.type==="multi")return a.map(i=>q.options[i]).join("; ");if(q.type==="numeric")return a;return q.options[a]??"Not answered"}
+function continueAfterReport(){if(state.module<3){state.module++;beginModule();show("examView")}else{saveCompleted();showFinal()}}
+function saveCompleted(){let h=JSON.parse(localStorage.getItem("greMockHistory")||"[]");h.push({test:state.test,started:state.started,completed:new Date().toISOString(),results:state.results.map(r=>({title:r.title,measure:r.measure,correct:r.correct,total:r.total,accuracy:r.accuracy,items:r.items.map(it=>({correct:it.correct,topic:it.q.topic,difficulty:it.q.difficulty}))}))});localStorage.setItem("greMockHistory",JSON.stringify(h))}
+function showFinal(){show("finalReport");$("finalReportBody").innerHTML=`<div class="notice">Mock Test ${String(state.test).padStart(2,"0")} complete. Your results are saved in this browser.</div>`+reportHTML(state.results,true)}
+function showHistory(){show("historyView");let h=JSON.parse(localStorage.getItem("greMockHistory")||"[]");if(!h.length){$("historyBody").innerHTML="<p>No completed tests saved in this browser yet. Complete a mock test to build your cumulative report.</p>";return}let total=h.reduce((s,t)=>s+t.results.reduce((a,r)=>a+r.total,0),0),correct=h.reduce((s,t)=>s+t.results.reduce((a,r)=>a+r.correct,0),0);let topics={};h.forEach(t=>t.results.forEach(r=>r.items.forEach(it=>{topics[it.topic]??={right:0,total:0};topics[it.topic].total++;if(it.correct)topics[it.topic].right++})));let rows=Object.entries(topics).sort((a,b)=>a[1].right/a[1].total-b[1].right/b[1].total).map(([t,v])=>`<div class="topicrow"><span>${t}</span><div class="bar"><span style="width:${100*v.right/v.total}%"></span></div><b>${Math.round(100*v.right/v.total)}%</b></div>`).join("");$("historyBody").innerHTML=`<div class="stats"><div class="stat"><b>${h.length}</b><span class="muted">Completed tests</span></div><div class="stat"><b>${correct}/${total}</b><span class="muted">All-time correct</span></div><div class="stat"><b>${total?Math.round(correct/total*100):0}%</b><span class="muted">All-time accuracy</span></div><div class="stat"><b>${60-h.length>0?60-h.length:0}</b><span class="muted">Mock sets not yet completed (counting attempts, not unique tests)</span></div></div><h3>Weakest topics across completed tests</h3>${rows}<h3>Recent completed tests</h3><table class="table"><tr><th>Test</th><th>Completed</th><th>Score</th></tr>${h.slice().reverse().slice(0,30).map(t=>`<tr><td>Mock Test ${String(t.test).padStart(2,"0")}</td><td>${new Date(t.completed).toLocaleString()}</td><td>${t.results.reduce((a,r)=>a+r.correct,0)}/${t.results.reduce((a,r)=>a+r.total,0)}</td></tr>`).join("")}</table><p class="muted">History is local to this browser/device. Clearing browser storage will erase it.</p>`}
+function goHome(){clearInterval(clock);paused=false;show("home")}
+renderTiles();initCalc();show("home");
+</script>
+</body></html>

@@ -1,0 +1,1 @@
+Upload index.html, README.md, FUTURE_MASTER_PROMPT.md, and .gitignore to a GitHub repository. Then enable Settings -> Pages -> Deploy from branch -> main -> /(root).
